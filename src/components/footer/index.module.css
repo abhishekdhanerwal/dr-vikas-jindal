@@ -1,0 +1,186 @@
+.footerContainer {
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+    width: 100vw;
+    background: #515151;
+  }
+  
+  .content {
+    display: flex;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: #fff;
+  }
+  
+  .section {
+    width: 33vw;
+    flex-grow: 1;
+  }
+  
+  .routesSection {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+  }
+  
+  .openingHours {
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+  
+  .title {
+    padding-left: 10px;
+    color: #86D293;
+    font-size: 16px;
+  }
+  
+  .routeTitle {
+    margin-bottom: 10px;
+    color: #86D293;
+    font-size: 16px;
+  }
+  
+  .routeList {
+    list-style: none;
+  }
+  
+  .routeList > li {
+    margin-bottom: 8px;
+    font-size: 12px;
+  }
+  
+  .routeList a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .routeList a:hover {
+    color: #86D293;
+  }
+  
+  .table {
+    color: rgb(105, 105, 105);
+    width: 100%;
+    padding-top: 8px;
+    border-collapse: separate;
+    border-spacing: 10px;
+    color: #fff;
+    font-size: 12px;
+  }
+  
+  .appointment {
+    display: flex;
+    flex-direction: column;
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+  
+  .location {
+    margin: 10px 6px 20px 6px;
+    font-size: 12px;
+    display: flex;
+    gap: 8px;
+  }
+  
+  .location:hover {
+    color: #86D293;
+    cursor: pointer;
+  }
+  
+  .socialMedia {
+    padding: 10px 6px;
+    display: flex;
+    gap: 12px;
+  }
+  
+  .icons {
+    color: #fff;
+    width: 28px;
+    height: 28px;
+  }
+  
+  .trademark {
+    border-top: 1px solid #dfdfdf;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+    font-size: 10px;
+    font-style: italic;
+    color: #fff;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+  
+  .timeInfo {
+    display: none;
+  }
+  
+  /* Responsive adjustments for tabs */
+  @media (max-width: 768px) {
+  }
+  
+  /* Responsive adjustments for mobile devices */
+  @media (max-width: 480px) {
+    .icons {
+      width: 28px;
+      height: 28px;
+    }
+  
+    .content {
+      flex-direction: column;
+      padding-top: 0px;
+      padding-bottom: 0;
+      gap: 12px;
+    }
+  
+    .section {
+      border-left: 0px;
+      width: 100%;
+      padding: 16px 16px 16px 16px;
+    }
+  
+    .routesSection {
+      align-content: flex-start;
+      padding-left: 26px;
+    }
+  
+    .location {
+      margin: 10px 6px 44px 6px;
+      font-size: 10px;
+    }
+  
+    .trademark {
+      margin-left: 0;
+      margin-right: 0;
+      font-size: 8px;
+    }
+  
+    .title,
+    .routeTitle {
+      font-size: 12px;
+    }
+  
+    .routeList > li {
+      font-size: 10px;
+    }
+  
+    .table {
+      display: none;
+    }
+  
+    .timeInfo {
+      display: flex;
+      margin: 10px 6px 0px 10px;
+      font-size: 10px;
+      flex-direction: column;
+      gap: 6px;
+    }
+  
+    .timeInfo h4 {
+      margin-bottom: 2px;
+    }
+  }
+  

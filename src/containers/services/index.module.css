@@ -1,0 +1,54 @@
+.servicesSection {
+  margin-top: 64px;
+  padding-top: 40px;
+  padding: 40px 100px 40px 100px;
+  background: #f7f9fc;
+}
+
+.description {
+  font-weight: 300;
+  margin-top: 12px;
+  width: 300px;
+}
+
+.servicesGroup {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  margin-top: 32px;
+}
+
+.serviceCard {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 400px;
+  padding: 20px;
+  display: flex;
+  background: #fff;
+  border-radius: 15px;
+  transition: transform 0.5s ease;
+}
+
+.serviceCard:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.img {
+  background: rgba(106, 154, 176, 0.5);
+  border-radius: 15px;
+  padding: 16px;
+  margin-left: 12px;
+}
+
+.serviceCard p {
+  margin-top: 8px;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+/* Responsive adjustments for mobile devices */
+@media (max-width: 480px) {
+  .servicesSection {
+    padding: 20px 20px 60px 20px;
+  }
+}

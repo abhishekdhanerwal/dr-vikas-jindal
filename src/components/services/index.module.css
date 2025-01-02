@@ -1,0 +1,23 @@
+.servicesContainer {
+  margin: 40px 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 34px;
+}
+
+/* Responsive adjustments for tabs */
+@media (max-width: 1024px) {
+  .servicesContainer {
+    margin: 40px 40px;
+    gap: 34px;
+  }
+}
+
+/* Responsive adjustments for mobile devices */
+@media (max-width: 480px) {
+  .servicesContainer {
+    margin: 20px 10px;
+    gap: 20px;
+  }
+}

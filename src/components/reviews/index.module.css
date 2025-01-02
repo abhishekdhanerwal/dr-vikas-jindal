@@ -1,0 +1,19 @@
+.reviews {
+  margin-top: 40px;
+}
+
+.reviewsMobileContainer {
+  margin-top: 40px;
+}
+
+.reviewsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+.slides {
+  display: flex;
+  align-items: center;
+}

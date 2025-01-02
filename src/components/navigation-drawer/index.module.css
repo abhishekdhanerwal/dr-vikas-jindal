@@ -1,0 +1,35 @@
+.drawer {
+    background-color: #F5F5F5;
+}
+
+.activeNavItem {
+    color: var(--primary-color-orange); 
+    border-radius: 15px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background: white;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.activeNavItemIcon {
+    color: var(--primary-color-orange); 
+}
+
+.divider {
+    margin-top: auto;
+    bottom: 60px;
+    position: absolute;
+    width: 100%;
+}
+
+.socialMediaContainer {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    height: 60px;
+    align-items: center;
+    margin-top: auto;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

@@ -1,0 +1,81 @@
+.reviewCard {
+  width: 325px;
+  height: 325px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.description {
+  padding: 20px;
+  font-weight: 300;
+  width: 100%;
+  height: 200px;
+  border-bottom: 1px solid lightgray;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  position: relative;
+}
+
+.avatar {
+  position: absolute;
+  bottom: -25px;
+  right: 134px;
+  width: 55px;
+  height: 55px;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+  gap: 8px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+/* Responsive adjustments for tabs */
+@media (max-width: 1024px) {
+  .reviewCard {
+    width: 225px;
+  }
+
+  .description {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .avatar {
+    right: 89px;
+    width: 45px;
+    height: 45px;
+  }
+
+  .title {
+    font-size: 18px;
+  }
+}
+
+/* Responsive adjustments for mobile devices */
+@media (max-width: 480px) {
+  .reviewCard {
+    width: 90vw;
+    height: 295px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 40px;
+  }
+
+  .description {
+    height: 160px;
+  }
+
+  .avatar {
+    right: 170px;
+  }
+}
