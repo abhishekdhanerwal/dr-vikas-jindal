@@ -3,7 +3,7 @@ import css from './index.module.css';
 import { useFonts } from '@/hooks/useFonts';
 
 export const GraphicalInfo = () => {
-    const { playpenSans, roboto, robotoBold } =  useFonts();
+    const { playpenSans, roboto } =  useFonts();
     return (
         <section className={css.graphicalInfoContainer}>
             <div className={css.imgContainer}>

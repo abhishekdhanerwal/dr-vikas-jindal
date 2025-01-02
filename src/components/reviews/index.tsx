@@ -4,9 +4,6 @@ import { Carousel } from 'react-responsive-carousel';
 
 import { useMediaQuery } from "@mui/material";
 
-import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
-import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
-
 import { SectionHeading } from "@/components/shared/section-heading"
 import { ReviewCard } from "@/components/review-card";
 

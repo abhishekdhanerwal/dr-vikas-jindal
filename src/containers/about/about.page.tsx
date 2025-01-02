@@ -42,7 +42,7 @@ export const AboutPage = () => {
                         <span className={`${css.panelContent} ${roboto.className}`}>Gastroenterologist</span>
                         <h2 className={openSans.className}>Educational Background</h2>
                         {EDUCATION.map(item => (
-                        <div className={`${roboto.className} ${css.eduContent}`}>
+                        <div key={item.name} className={`${roboto.className} ${css.eduContent}`}>
                             <h3>{item.degree}</h3>
                             <div>{item.name}</div>
                             <div>{item.location}</div>

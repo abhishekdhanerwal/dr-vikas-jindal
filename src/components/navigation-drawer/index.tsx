@@ -1,4 +1,4 @@
-import React, { Fragment, useState } from 'react';
+import React, { Fragment } from 'react';
 
 import { useRouter } from 'next/router';
 
@@ -11,9 +11,6 @@ import List from '@mui/material/List';
 import Divider from '@mui/material/Divider';
 import ListItemButton from '@mui/material/ListItemButton';
 import ListItemText from '@mui/material/ListItemText';
-import ArrowRightIcon from '@mui/icons-material/ArrowRight';
-import { Collapse, ListItemIcon } from '@mui/material';
-import { ExpandLess, ExpandMore } from '@mui/icons-material';
 
 import css from './index.module.css';
 import { NAVIGATION } from '@/content/navigation';
@@ -25,13 +22,6 @@ interface Props {
 
 const NavigationDrawer = ({ open, onClose }: Props) => {
   const router = useRouter();
-
-  const [openServices, setOpenServices] = useState(false);
-
-  const handleClick = (e: React.MouseEvent) => {
-    setOpenServices(!openServices);
-    e.stopPropagation();
-  };
 
   const goToPage = (path: string) => {
     router.push(path)

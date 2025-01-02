@@ -9,9 +9,9 @@ export const ReviewCard = () => {
     return (
         <div className={css.reviewCard}>
             <div className={`${css.description} ${roboto.className}`}>
-                "
+            &quot;
                 Doctor is kind, confident and explains everthing. Gives appropriate time, makes you fully satisfied on each front. Keeps u at ease. If you have tried many doctors earlier, at least visit him once on my request. Hope God will not disappoint you. Thank you Doctor.
-                "
+                &quot;
                 <Avatar className={css.avatar} />
             </div>
             <div className={css.label}>

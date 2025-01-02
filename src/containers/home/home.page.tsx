@@ -76,7 +76,7 @@ export const HomePage = () => {
                         <h1 className={`${exo2.className} ${css.headingText}`}>Comprehensive Gastroenterology</h1>
                         <h1 className={`${exo2.className} ${css.headingText} ${css.headingSpacing}`}>Solutions</h1>
                         <h1 className={`${exo2.className} ${css.headingText} ${css.headingSpacing}`}>for a Healthier Tomorrow.</h1>
-                        <p className={`${playpenSans.className} ${css.contentDescription}`}>"Providing personalized, advanced care to ensure your digestive health and a brighter, healthier future."</p>
+                        <p className={`${playpenSans.className} ${css.contentDescription}`}>&quot;Providing personalized, advanced care to ensure your digestive health and a brighter, healthier future.&quot;</p>
                     </div>
                     {matchesMobileScreen ?
                         <div className={css.imageContainer}>
